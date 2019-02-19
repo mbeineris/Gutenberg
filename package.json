@@ -1,7 +1,7 @@
 {
-  "name": "gutenberg-web-type",
+  "name": "gutenberg-web-type-scoped",
   "version": "1.2.3",
-  "description": "Gutenberg is a flexible and simple–to–use web typography starter kit for web designers and developers. It’s a small step towards a better typography on the web. Beautiful typographic styles can be made by setting base type size, line-height (leading) and measure (max-width).",
+  "description": "Forked from matejlatin/Gutenberg. Gutenberg is a flexible and simple–to–use web typography starter kit for web designers and developers. It’s a small step towards a better typography on the web. Beautiful typographic styles can be made by setting base type size, line-height (leading) and measure (max-width).",
   "main": "index.html",
   "dependencies": {},
   "scripts": {
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matejlatin/Gutenberg.git"
+    "url": "git+https://github.com/mbeineris/Gutenberg.git"
   },
   "keywords": [
     "typography",
     "web design",
     "front end"
   ],
-  "author": "Matej Latin",
+  "author": "Marius Beineris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matejlatin/Gutenberg/issues"
+    "url": "https://github.com/mbeineris/Gutenberg/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
