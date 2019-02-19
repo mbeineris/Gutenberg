@@ -21,6 +21,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
 @import "layout/base";
 
 .gutenberg {
+    @import "layout/structure";
     @import "layout/footer";
     @import "layout/header";
     @import "layout/main";
