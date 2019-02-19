@@ -270,107 +270,100 @@ body {
   margin: 0;
 }
 
-footer {
+.gutenberg {
+  /* Links
+     ========================================================================== */
+  /* Headings
+     ========================================================================== */
+  /* Paragraph
+  ========================================================================== */
+}
+.gutenberg footer {
   display: block;
 }
-body > footer {
+body > .gutenberg footer {
   margin: 0 auto;
   width: 80%;
 }
-
-header {
+.gutenberg header {
   display: block;
 }
-
-main {
+.gutenberg main {
   display: block;
 }
-
-section {
+.gutenberg section {
   display: block;
 }
-
-/* Links
-   ========================================================================== */
-a {
+.gutenberg a {
   background: transparent;
   color: #222;
   transition: all .3s;
 }
-a:active, a:hover {
+.gutenberg a:active, .gutenberg a:hover {
   outline: 0;
 }
-a:hover {
+.gutenberg a:hover {
   color: #222;
 }
-a:visited {
+.gutenberg a:visited {
   color: #888;
 }
-a:visited:hover {
+.gutenberg a:visited:hover {
   color: #222;
 }
-a:active {
+.gutenberg a:active {
   color: #f00;
 }
-
-article {
+.gutenberg article {
   display: block;
   margin: 0 auto;
   width: 80%;
 }
 @media screen and (min-width: 40em) {
-  article {
+  .gutenberg article {
     max-width: 945px;
     max-width: 52.5rem;
   }
 }
-
-audio {
+.gutenberg audio {
   display: inline-block;
   vertical-align: baseline;
 }
-audio:not([controls]) {
+.gutenberg audio:not([controls]) {
   display: none;
   height: 0;
 }
-
-canvas {
+.gutenberg canvas {
   display: inline-block;
   vertical-align: baseline;
 }
-
-pre {
+.gutenberg pre {
   overflow: auto;
 }
-
-code,
-kbd,
-pre,
-samp {
+.gutenberg code,
+.gutenberg kbd,
+.gutenberg pre,
+.gutenberg samp {
   font-family: monospace, monospace;
 }
-
-code {
+.gutenberg code {
   padding: 26px;
   padding: 1.625rem;
   display: block;
 }
 @media screen and (min-width: 40em) {
-  code {
+  .gutenberg code {
     padding: 31px;
     padding: 1.722222222222222rem;
   }
 }
-
-details {
+.gutenberg details {
   display: block;
 }
-
-summary {
+.gutenberg summary {
   display: block;
 }
-
-figcaption {
+.gutenberg figcaption {
   line-height: 26px;
   line-height: 1.625rem;
   color: #222;
@@ -381,20 +374,18 @@ figcaption {
   text-align: center;
 }
 @media screen and (min-width: 40em) {
-  figcaption {
+  .gutenberg figcaption {
     line-height: 31px;
     line-height: 1.722222222222222rem;
     margin-bottom: 0;
   }
 }
-
-figure {
+.gutenberg figure {
   display: block;
 }
-
 @media screen and (min-width: 40em) {
-  figure.floatLeft,
-  figure.floatRight {
+  .gutenberg figure.floatLeft,
+  .gutenberg figure.floatRight {
     max-width: 315px;
     max-width: 17.5rem;
     padding: 0px 31px;
@@ -402,26 +393,23 @@ figure {
   }
 }
 @media screen and (min-width: 40em) {
-  figure.floatLeft blockquote,
-  figure.floatRight blockquote {
+  .gutenberg figure.floatLeft blockquote,
+  .gutenberg figure.floatRight blockquote {
     padding: 0px;
     padding: 0rem;
     text-align: left;
   }
 }
 @media screen and (min-width: 40em) {
-  figure.floatLeft blockquote p,
-  figure.floatRight blockquote p {
+  .gutenberg figure.floatLeft blockquote p,
+  .gutenberg figure.floatRight blockquote p {
     font-size: 19.2px;
     font-size: 1.2rem;
     line-height: 31px;
     line-height: 1.722222222222222rem;
   }
 }
-
-/* Headings
-   ========================================================================== */
-h1 {
+.gutenberg h1 {
   font-size: 40px;
   font-size: 2.5rem;
   line-height: 52px;
@@ -431,8 +419,7 @@ h1 {
   margin-bottom: 26px;
   margin-bottom: 1.625rem;
 }
-
-h2 {
+.gutenberg h2 {
   font-size: 27px;
   font-size: 1.6875rem;
   line-height: 39px;
@@ -442,8 +429,7 @@ h2 {
   margin-bottom: 13px;
   margin-bottom: 0.8125rem;
 }
-
-h3 {
+.gutenberg h3 {
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 26px;
@@ -453,8 +439,7 @@ h3 {
   margin-bottom: 13px;
   margin-bottom: 0.8125rem;
 }
-
-h4 {
+.gutenberg h4 {
   font-size: 19.2px;
   font-size: 1.2rem;
   line-height: 26px;
@@ -464,8 +449,7 @@ h4 {
   margin-bottom: 13px;
   margin-bottom: 0.8125rem;
 }
-
-h5 {
+.gutenberg h5 {
   font-size: 16px;
   font-size: 1rem;
   line-height: 26px;
@@ -475,8 +459,7 @@ h5 {
   margin-bottom: 13px;
   margin-bottom: 0.8125rem;
 }
-
-h6 {
+.gutenberg h6 {
   font-size: 16px;
   font-size: 1rem;
   line-height: 26px;
@@ -486,9 +469,8 @@ h6 {
   margin-bottom: 13px;
   margin-bottom: 0.8125rem;
 }
-
 @media screen and (min-width: 40em) {
-  h1 {
+  .gutenberg h1 {
     font-size: 40px;
     font-size: 2.5rem;
     line-height: 62px;
@@ -498,8 +480,7 @@ h6 {
     margin-bottom: 31px;
     margin-bottom: 1.722222222222222rem;
   }
-
-  h2 {
+  .gutenberg h2 {
     font-size: 27px;
     font-size: 1.6875rem;
     line-height: 46.5px;
@@ -509,8 +490,7 @@ h6 {
     margin-bottom: 15.5px;
     margin-bottom: 0.861111111111111rem;
   }
-
-  h3 {
+  .gutenberg h3 {
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 31px;
@@ -520,8 +500,7 @@ h6 {
     margin-bottom: 15.5px;
     margin-bottom: 0.861111111111111rem;
   }
-
-  h4 {
+  .gutenberg h4 {
     font-size: 19.2px;
     font-size: 1.2rem;
     line-height: 31px;
@@ -531,8 +510,7 @@ h6 {
     margin-bottom: 15.5px;
     margin-bottom: 0.861111111111111rem;
   }
-
-  h5 {
+  .gutenberg h5 {
     font-size: 16px;
     font-size: 1rem;
     line-height: 31px;
@@ -542,8 +520,7 @@ h6 {
     margin-bottom: 15.5px;
     margin-bottom: 0.861111111111111rem;
   }
-
-  h6 {
+  .gutenberg h6 {
     font-size: 16px;
     font-size: 1rem;
     line-height: 31px;
@@ -554,53 +531,48 @@ h6 {
     margin-bottom: 0.861111111111111rem;
   }
 }
-h1 + h2 {
+.gutenberg h1 + h2 {
   margin-top: 26px;
   margin-top: 1.625rem;
 }
 @media screen and (min-width: 40em) {
-  h1 + h2 {
+  .gutenberg h1 + h2 {
     margin-top: 31px;
     margin-top: 1.722222222222222rem;
   }
 }
-
-h2 + h3,
-h3 + h4,
-h4 + h5 {
+.gutenberg h2 + h3,
+.gutenberg h3 + h4,
+.gutenberg h4 + h5 {
   margin-top: 13px;
   margin-top: 0.8125rem;
 }
 @media screen and (min-width: 40em) {
-  h2 + h3,
-  h3 + h4,
-  h4 + h5 {
+  .gutenberg h2 + h3,
+  .gutenberg h3 + h4,
+  .gutenberg h4 + h5 {
     margin-top: 15.5px;
     margin-top: 0.861111111111111rem;
   }
 }
-
-h5 + h6 {
+.gutenberg h5 + h6 {
   margin-top: -13px;
   margin-top: -0.8125rem;
 }
 @media screen and (min-width: 40em) {
-  h5 + h6 {
+  .gutenberg h5 + h6 {
     margin-top: -15.5px;
     margin-top: -0.861111111111111rem;
   }
 }
-
-h6 {
+.gutenberg h6 {
   font-style: italic;
   font-weight: normal;
 }
-
-hgroup {
+.gutenberg hgroup {
   display: block;
 }
-
-hr {
+.gutenberg hr {
   margin-top: 52px;
   margin-top: 3.25rem;
   margin-bottom: 52px;
@@ -619,7 +591,7 @@ hr {
   width: 100px;
 }
 @media screen and (min-width: 40em) {
-  hr {
+  .gutenberg hr {
     margin-top: 62px;
     margin-top: 3.444444444444445rem;
     margin-bottom: 62px;
@@ -629,180 +601,149 @@ hr {
   }
 }
 @media screen and (min-width: 40em) {
-  hr {
+  .gutenberg hr {
     background-size: 100% 31px;
     background-size: 100% 1.722222222222222rem;
     background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
   }
 }
-
-img {
+.gutenberg img {
   border: 0;
   max-width: 100%;
   display: block;
   margin: inherit auto;
 }
-
-svg:not(:root) {
+.gutenberg svg:not(:root) {
   overflow: hidden;
 }
-
-ul li,
-ol li {
+.gutenberg ul li,
+.gutenberg ol li {
   margin-bottom: 0;
 }
-
-nav {
+.gutenberg nav {
   display: block;
 }
-
-progress {
+.gutenberg progress {
   display: inline-block;
   vertical-align: baseline;
 }
-
-blockquote {
+.gutenberg blockquote {
   font-style: italic;
   padding-left: 1.4375rem;
 }
 @media screen and (min-width: 40em) {
-  blockquote {
+  .gutenberg blockquote {
     padding-left: 2rem;
   }
 }
-
-cite {
+.gutenberg cite {
   display: block;
   font-style: normal;
 }
-
-figure blockquote {
+.gutenberg figure blockquote {
   padding: 26px 0px;
   padding: 1.625rem 0rem;
 }
 @media screen and (min-width: 40em) {
-  figure blockquote {
+  .gutenberg figure blockquote {
     padding: 62px 0px 31px;
     padding: 3.444444444444445rem 0rem 1.722222222222222rem;
     text-align: center;
   }
 }
-figure blockquote p {
+.gutenberg figure blockquote p {
   font-size: 27px;
   font-size: 1.6875rem;
   line-height: 39px;
   line-height: 2.4375rem;
 }
 @media screen and (min-width: 40em) {
-  figure blockquote p {
+  .gutenberg figure blockquote p {
     font-size: 27px;
     font-size: 1.6875rem;
     line-height: 46.5px;
     line-height: 2.583333333333334rem;
   }
 }
-
-table {
+.gutenberg table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-td,
-th {
+.gutenberg td,
+.gutenberg th {
   padding: 0;
 }
-
-[hidden],
-template {
+.gutenberg [hidden],
+.gutenberg template {
   display: none;
 }
-
-br {
+.gutenberg br {
   margin-bottom: 0;
 }
-
-abbr {
+.gutenberg abbr {
   letter-spacing: 0.1em;
 }
-
-abbr[title] {
+.gutenberg abbr[title] {
   border-bottom: 1px dotted;
 }
-
-b,
-strong {
+.gutenberg b,
+.gutenberg strong {
   font-weight: bold;
 }
-
-dfn {
+.gutenberg dfn {
   font-style: italic;
 }
-
-em,
-i {
+.gutenberg em,
+.gutenberg i {
   line-height: 0;
-  position: relative;
   vertical-align: baseline;
 }
-
-mark {
+.gutenberg mark {
   background: #ff0;
   color: #000;
 }
-
-small {
+.gutenberg small {
   line-height: 13px;
   line-height: 0.8125rem;
   font-size: 70%;
 }
 @media screen and (min-width: 40em) {
-  small {
+  .gutenberg small {
     line-height: 15.5px;
     line-height: 0.861111111111111rem;
   }
 }
-
-sub,
-sup {
+.gutenberg sub,
+.gutenberg sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-
-sup {
+.gutenberg sup {
   top: -0.5em;
 }
-
-sub {
+.gutenberg sub {
   bottom: -0.25em;
 }
-
-/* Paragraph
-========================================================================== */
-.attention-grabber {
+.gutenberg .attention-grabber {
   font-size: 19.2px;
   font-size: 1.2rem;
 }
-
-.alignLeft {
+.gutenberg .alignLeft {
   text-align: left;
 }
-
-.alignCenter {
+.gutenberg .alignCenter {
   text-align: center;
 }
-
-.alignRight {
+.gutenberg .alignRight {
   text-align: right;
 }
-
-.uppercase {
+.gutenberg .uppercase {
   letter-spacing: .1em;
   text-transform: uppercase;
 }
-
-video {
+.gutenberg video {
   display: inline-block;
   vertical-align: baseline;
 }
