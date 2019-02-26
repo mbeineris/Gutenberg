@@ -141,25 +141,6 @@ html {
   }
 }
 
-* {
-  line-height: 26px;
-  line-height: 1.625rem;
-  margin: 0px 0px 26px;
-  margin: 0rem 0rem 1.625rem;
-}
-@media screen and (min-width: 40em) {
-  * {
-    line-height: 31px;
-    line-height: 1.722222222222222rem;
-    margin-bottom: 31px;
-    margin-bottom: 1.722222222222222rem;
-    max-width: 630px;
-    max-width: 35rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 *,
 *::before,
 *::after {
@@ -177,6 +158,24 @@ body {
      ========================================================================== */
   /* Paragraph
   ========================================================================== */
+}
+.gutenberg * {
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin: 0px 0px 26px;
+  margin: 0rem 0rem 1.625rem;
+}
+@media screen and (min-width: 40em) {
+  .gutenberg * {
+    line-height: 31px;
+    line-height: 1.722222222222222rem;
+    margin-bottom: 31px;
+    margin-bottom: 1.722222222222222rem;
+    max-width: 630px;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .gutenberg footer {
   display: block;
